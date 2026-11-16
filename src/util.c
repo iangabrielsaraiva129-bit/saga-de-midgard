@@ -6,13 +6,13 @@
 int lerOpcao(int min, int max) {
     int op, lido;
     while (1) {
-        printf("> ");
+        printf("Sua escolha: ");
         lido = scanf("%d", &op);
         if (lido == EOF)
             exit(0);
         limparBuffer();
         if (lido == 0) {
-            printf("Digite um numero.\n");
+            printf("Digite um numero: \n");
         } else if (op < min || op > max) {
             printf("Opcao invalida. Escolha de %d a %d.\n", min, max);
         } else {

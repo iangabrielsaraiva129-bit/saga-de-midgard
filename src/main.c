@@ -6,7 +6,7 @@
 #include "personagem.h"
 #include "fases.h"
 
-int main(void) {
+int main() {
     Personagem heroi;
     Fase fases[NUM_FASES];
     int i, vivo = 1;
